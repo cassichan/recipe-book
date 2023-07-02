@@ -1,0 +1,13 @@
+.list-group-item {
+  background: rgb(227, 225, 225);
+  border: 1px solid rgb(181, 177, 177);
+  margin: 20px 0;
+  padding: 10px;
+}
+.recipe-name {
+  font-size: 1.5rem;
+}
+
+.recipe-description {
+  font-size: 1.2rem;
+}
