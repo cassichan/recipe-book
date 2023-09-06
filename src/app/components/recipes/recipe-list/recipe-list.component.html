@@ -7,6 +7,7 @@
 <div class="div row">
   <div class="div col-xs-12">
     <app-recipe-item
+    (recipeSelected)="updateRecipe(recipe)"
       *ngFor="let recipe of recipes"
       [recipe]="recipe"
     ></app-recipe-item>
