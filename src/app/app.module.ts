@@ -9,7 +9,6 @@ import { RecipeListComponent } from './components/recipes/recipe-list/recipe-lis
 import { RecipeItemComponent } from './components/recipes/recipe-item/recipe-item.component';
 import { RecipeDetailComponent } from './components/recipes/recipe-detail/recipe-detail.component';
 import { RecipesComponent } from './views/recipes/recipes.component';
-import { ShoppingComponent } from './views/shopping/shopping.component';
 import { RouterModule } from '@angular/router';
 
 @NgModule({
@@ -22,7 +21,6 @@ import { RouterModule } from '@angular/router';
     RecipeItemComponent,
     RecipeDetailComponent,
     RecipesComponent,
-    ShoppingComponent,
   ],
   imports: [BrowserModule, RouterModule],
   providers: [],

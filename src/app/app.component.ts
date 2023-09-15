@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  activeFeature = "recipes";
+  activeFeature = "shopping-list";
 
   updateFeature(feature: string) {
     this.activeFeature = feature;
